@@ -1,0 +1,105 @@
+/*
+
+selector  {
+    property: value;
+    property: value;
+    etc...
+
+}
+
+writing selectors:
+
+tagname-> sekects all tags of a given type
+.classnane -> selects all members of a given class
+tagname.classname -> selects only tags that are also members of a given class
+
+> ->  child symbol
+
+tagname>tagname
+tagname>.classname
+.classname>.classname
+.classname>tagname>tagname>tagname...
+e
+css= cascading style sheets (the later rule overrules the beginning rules if it overrules it.
+
+
+
+Heading Picture Paragraph
+
+
+How to center image
+
+
+img tag in heading 1
+
+go to style page
+make img tag
+diplay tag
+in display tag put BLOCK
+then, put width
+then put height;auto
+then set margin;auto
+if you want pictures next to each other they ust be inline blocks
+
+mr karnes set the margin to left ten percent
+
+go to style, then background image, then put the url : Images/ blah blah blah/ blah blah
+then say background-repeat:no repeat
+background -size cover; 
+
+( use a high resoloution picture )
+*copy and paste
+*/
+
+.nav{
+    list-style: none;
+
+    padding-left: 0%;
+
+    border-style: ridge;
+    
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+
+.nav>li{
+    border-style: ridge;
+    display: inline-block;
+}
+
+
+    .nav>li>a:hover{
+    color: black;
+}
+s
+.h1{
+
+    color: crimson;
+
+}
+
+.p{
+
+color: darkblue;
+
+}
+
+body{
+
+background-image: url(Images/american-flag-wind.webp);
+
+
+}
+
+
+img{
+
+width: 50%;
+
+margin: auto;
+
+}
